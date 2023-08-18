@@ -1,6 +1,6 @@
 import { setCurrentDate } from '../helpers/setCurrentDate.js';
 
-// Variables
+// Variables 
 const nombreTransfer = document.getElementById('nombreTransfer');
 const montoTransfer = document.getElementById('montoTransfer');
 const transferBtn = document.getElementById('transferBtn');
