@@ -1,0 +1,74 @@
+{
+    "users": [
+    {
+        "firstname": "carlos",
+        "lastname": "gonzalez",
+        "password": "123456",
+        "email": "carlos@gonzalez.com",
+        "cuenta": {
+            "cbu": 123456789098765432157924,
+            "alias": "ALIAS.carlosG",
+            "movements":[
+                { 
+                    "date": "07-08-2023", 
+                    "time": "18-48-30", 
+                    "amount": 2000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                },
+                { 
+                    "date": "18-08-2023", 
+                    "time": "18-42-44", 
+                    "amount": 5000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                }
+            ],
+            "saldo": 7000
+        },
+        "active": false
+    },
+    {
+        "firstname": "pepe",
+        "lastname": "fernandez",
+        "password": "123456",
+        "email": "pepe@fernandez.com",
+        "cuenta": {
+            "cbu": 938563059684357688210567,
+            "alias": "ALIAS.pepeF",
+            "movements":[
+                { 
+                    "date": "18-08-2020", 
+                    "time": "07-23-14", 
+                    "amount": 1000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                },
+                { 
+                    "date": "14-07-2023", 
+                    "time": "11-56-59", 
+                    "amount": 2000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                },
+                { 
+                    "date": "15-08-2023", 
+                    "time": "14-50-30", 
+                    "amount": 5000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                },
+                { 
+                    "date": "18-08-2023", 
+                    "time": "18-42-44", 
+                    "amount": 5000, 
+                    "to": "Me", 
+                    "reason": "Loan"
+                }
+            ],
+            "saldo": 13000
+        },
+        "active": false
+    }
+]
+}
